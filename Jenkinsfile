@@ -13,6 +13,7 @@ pipeline {
                 echo "This is building code"
                 sh 'docker build -t notes-app:latest .'
                 echo "docker build successfull"
+                echo "new changes for webhooks"
             }
         }
         stage("code Test"){
